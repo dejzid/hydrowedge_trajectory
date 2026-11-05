@@ -6,9 +6,8 @@ never touched).
 
   fig_axial_{pusher,puller}_s1         axial dipole: alpha = pi/3, sigma/(v0 l^2) = +-1,
                                        rho0 = 10, beta0 = 0, +-pi/12, +-pi/6, +-pi/4
-  fig_transverse_{pusher,puller}_s<N>  transverse dipole: alpha = pi/3, sigma/(v0 l^2) = +-N
-                                       for N = 1, 2, 5, 10, 20, rho0 = 10, beta0 = pi/6,
-                                       8 headings theta = beta + delta
+  fig_transverse_{pusher,puller}_s10   transverse dipole: alpha = pi/3, sigma/(v0 l^2) = +-10,
+                                       rho0 = 10, beta0 = pi/6, 8 headings theta = beta + delta
 
 The panels (PNG, 600 dpi, typeset with LaTeX) are 3.375 in wide (one REVTeX column) with
 the same axes width and scale; include them at natural size (or all at the same width)
@@ -181,9 +180,8 @@ def fig_transverse(force, name, suffix=""):
         save(fig, f"fig_transverse_{kind}_s{abs(sigma):g}{suffix}", force, exts=("png",), dpi=600)
 
 
-# Transverse paper cases, one per |sigma| = 1, 2, 5, 10, 20.
-TRANSVERSE_CASES = ["transverse_pi3_paper_theta"] + [
-    f"transverse_pi3_paper_theta_s{s}" for s in (2, 5, 10, 20)]
+# Transverse case of the paper figures (sigma/(v0 l^2) = +-10).
+TRANSVERSE_CASES = ["transverse_pi3_paper_theta_s10"]
 
 
 def main(argv=None):

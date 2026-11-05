@@ -22,15 +22,16 @@ in the cross-section shown.
 - The cross-section path does not depend on |σ| or v₀; the distance along the edge
   scales as v₀ρ₀³/σ.
 
-## Transverse dipole (`fig_transverse_{pusher,puller}_s<N>.png`)
+## Transverse dipole (`fig_transverse_{pusher,puller}_s10.png`)
 
-Cases `transverse_pi3_paper_theta` (N = 1) and `transverse_pi3_paper_theta_s<N>`
-(N = 2, 5, 10, 20): α = π/3, σ/(v₀ℓ²) = ±N, start at ρ₀ = 10ℓ, β₀ = π/6 (5ℓ from the
-upper wall), headings ϑ = β + δ = −3π/4, −π/2, …, π from the x-axis. The vertical range
-grows with N so that every wall contact is visible.
-- For |σ| ≤ 2 pusher and puller paths differ by at most ~1.5ℓ, mostly in the last few ℓ
-  before a wall; the wall-induced velocity falls off as 1/d².
-- With increasing |σ| pushers are pulled into the walls and turned towards them; for
-  N ≥ 5 the ϑ = −3π/4 pusher crosses to the upper wall near the apex, and for N = 20 the
-  ϑ = π/4 pusher no longer escapes. Pullers are pushed away from walls they approach
-  head-on and reach walls they face quickly and almost straight.
+Case `transverse_pi3_paper_theta_s10`: α = π/3, σ/(v₀ℓ²) = ±10, start at ρ₀ = 10ℓ,
+β₀ = π/6 (5ℓ from the upper wall), headings ϑ = β + δ = −3π/4, −π/2, …, π from the
+x-axis. The vertical range (±15ℓ) shows every wall contact.
+- Pushers are pulled into the walls and turned towards them: ϑ = ±π/2 bend strongly
+  before contact, ϑ = 3π/4 and π hook into the upper wall, and ϑ = −3π/4, heading for the
+  lower wall near the apex, crosses to the upper wall.
+- Pullers are pushed away from walls they approach head-on (ϑ = ±π/2 lean away and turn
+  into the wall only at the end) and reach walls they face quickly and almost straight
+  (ϑ = 3π/4 and π at t = 2.1 and 2.5 ℓ/v₀, against 10.1 and 7.0 ℓ/v₀ for the pusher).
+- ϑ = 0 and ±π/4 escape for both; only their direction drifts slightly, in opposite
+  senses for pusher and puller.

@@ -41,7 +41,7 @@ To recompute the trajectories themselves, delete the case folders and run the ca
 again (results are never overwritten, see `cases/README.md`):
 
 ```
-python run_trajectories.py cases/axial_pi3_paper_round.json cases/transverse_pi3_paper_theta*.json
+python run_trajectories.py cases/axial_pi3_paper_round.json cases/transverse_pi3_paper_theta_s10.json
 python make_paper_figures.py --force
 ```
 
@@ -52,8 +52,7 @@ Deleting those as well recomputes the profiles from the full solution (~1 min ax
 | figure | case file | parameters |
 |---|---|---|
 | `fig_axial_{pusher,puller}_s1.png` | `axial_pi3_paper_round.json` | α = π/3, σ/(v₀ℓ²) = ±1, ρ₀ = 10ℓ, β₀ = 0, ±π/12, ±π/6, ±π/4 |
-| `fig_transverse_{pusher,puller}_s1.png` | `transverse_pi3_paper_theta.json` | α = π/3, σ/(v₀ℓ²) = ±1, ρ₀ = 10ℓ, β₀ = π/6, ϑ = −3π/4 … π |
-| `fig_transverse_{pusher,puller}_s{2,5,10,20}.png` | `transverse_pi3_paper_theta_s{2,5,10,20}.json` | as above with σ/(v₀ℓ²) = ±2, ±5, ±10, ±20 |
+| `fig_transverse_{pusher,puller}_s10.png` | `transverse_pi3_paper_theta_s10.json` | α = π/3, σ/(v₀ℓ²) = ±10, ρ₀ = 10ℓ, β₀ = π/6, ϑ = −3π/4, −π/2, …, π |
 
 `results/paper/README.md` summarises what the figures show.
 
