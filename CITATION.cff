@@ -4,6 +4,15 @@ message: "If you use this software, please cite the paper and the archived softw
 title: "hydrowedge: force-dipole microswimmers in a wedge"
 type: software
 version: 1.0.0
+doi: "10.5281/zenodo.23976935"
+date-released: "2026-11-05"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23976935"
+    description: "This version (v1.0.0)"
+  - type: doi
+    value: "10.5281/zenodo.23976934"
+    description: "All versions (latest)"
 license: MIT
 authors:
   - family-names: "Zidanek"

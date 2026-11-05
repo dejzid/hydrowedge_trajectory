@@ -1,5 +1,7 @@
 # hydrowedge — force-dipole microswimmers in a wedge
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23976935.svg)](https://doi.org/10.5281/zenodo.23976935)
+
 Numerical code accompanying the paper
 
 > A. Wills, D. Zidanek, M. J. Mitchell, A. M. Menzel and A. Daddi-Moussa-Ider,
@@ -142,7 +144,11 @@ evaluated in mpmath with working precision growing with ν (plain float64 is wro
 
 Please cite the paper (above) and the version of this software you used:
 
-> D. Zidanek, hydrowedge (version 1.0.0), Zenodo (2026). <!-- Add the Zenodo DOI after the release. -->
+> D. Zidanek, hydrowedge (version 1.0.0), Zenodo (2026),
+> doi:[10.5281/zenodo.23976935](https://doi.org/10.5281/zenodo.23976935).
+
+The DOI [10.5281/zenodo.23976934](https://doi.org/10.5281/zenodo.23976934) always
+points to the latest version.
 
 `CITATION.cff` holds the same information in machine-readable form (GitHub shows it as
 "Cite this repository").
