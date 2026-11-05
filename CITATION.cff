@@ -9,6 +9,7 @@ authors:
   - family-names: "Zidanek"
     given-names: "Dejan"
     affiliation: "The Open University"
+    orcid: "https://orcid.org/0009-0002-6086-6802"
 repository-code: "https://github.com/dejzid/hydrowedge_trajectory"
 abstract: >-
   Wall-induced velocities and trajectories of axial and transverse force-dipole
