@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Unfinished case runs (renamed to results/cases/<name>/ when complete)
+results/cases/.*.tmp/
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Email attachments (copies of results/cases)
+results/*.zip
+results/cases plots/

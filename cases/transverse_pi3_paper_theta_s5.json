@@ -1,0 +1,54 @@
+{
+  "description": "Paper figures (transverse pusher / puller), alpha = pi/3, sigma/(l^2 v0) = +-5 (trial, to see a strong dipole): start at rho0 = 10, beta0 = pi/6, heading (theta = beta + delta, from the x-axis) -3pi/4 ... pi in steps of pi/4.",
+  "dipole": "transverse",
+  "alpha": "pi/3",
+  "sigma": [
+    5,
+    -5
+  ],
+  "rho_max": 40,
+  "t_max": 1000,
+  "view": 25,
+  "starts": [
+    {
+      "rho0": 10,
+      "beta0": "pi/6",
+      "heading": "-3*pi/4"
+    },
+    {
+      "rho0": 10,
+      "beta0": "pi/6",
+      "heading": "-pi/2"
+    },
+    {
+      "rho0": 10,
+      "beta0": "pi/6",
+      "heading": "-pi/4"
+    },
+    {
+      "rho0": 10,
+      "beta0": "pi/6",
+      "heading": "0"
+    },
+    {
+      "rho0": 10,
+      "beta0": "pi/6",
+      "heading": "pi/4"
+    },
+    {
+      "rho0": 10,
+      "beta0": "pi/6",
+      "heading": "pi/2"
+    },
+    {
+      "rho0": 10,
+      "beta0": "pi/6",
+      "heading": "3*pi/4"
+    },
+    {
+      "rho0": 10,
+      "beta0": "pi/6",
+      "heading": "pi"
+    }
+  ]
+}

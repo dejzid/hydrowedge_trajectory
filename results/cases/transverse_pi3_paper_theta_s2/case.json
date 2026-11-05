@@ -1,0 +1,60 @@
+{
+  "input": {
+    "description": "Paper figures (transverse pusher / puller), alpha = pi/3, sigma/(l^2 v0) = +-2: start at rho0 = 10, beta0 = pi/6, heading (theta = beta + delta, from the x-axis) -3pi/4 ... pi in steps of pi/4.",
+    "dipole": "transverse",
+    "alpha": "pi/3",
+    "sigma": [
+      2,
+      -2
+    ],
+    "rho_max": 40,
+    "t_max": 1000,
+    "view": 25,
+    "starts": [
+      {
+        "rho0": 10,
+        "beta0": "pi/6",
+        "heading": "-3*pi/4"
+      },
+      {
+        "rho0": 10,
+        "beta0": "pi/6",
+        "heading": "-pi/2"
+      },
+      {
+        "rho0": 10,
+        "beta0": "pi/6",
+        "heading": "-pi/4"
+      },
+      {
+        "rho0": 10,
+        "beta0": "pi/6",
+        "heading": "0"
+      },
+      {
+        "rho0": 10,
+        "beta0": "pi/6",
+        "heading": "pi/4"
+      },
+      {
+        "rho0": 10,
+        "beta0": "pi/6",
+        "heading": "pi/2"
+      },
+      {
+        "rho0": 10,
+        "beta0": "pi/6",
+        "heading": "3*pi/4"
+      },
+      {
+        "rho0": 10,
+        "beta0": "pi/6",
+        "heading": "pi"
+      }
+    ],
+    "name": "transverse_pi3_paper_theta_s2"
+  },
+  "profile": "results/profiles/transverse_alpha=pi_3_n20_gap0.1.csv",
+  "code_version": "cb2e7f9",
+  "created": "2026-11-04T13:34:13"
+}

@@ -1,0 +1,43 @@
+# Read by GitHub ("Cite this repository") and by Zenodo when it archives a release.
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper and the archived software version."
+title: "hydrowedge: force-dipole microswimmers in a wedge"
+type: software
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: "Zidanek"
+    given-names: "Dejan"
+    affiliation: "The Open University"
+repository-code: "https://github.com/dejzid/hydrowedge_trajectory"
+abstract: >-
+  Wall-induced velocities and trajectories of axial and transverse force-dipole
+  swimmers in a wedge, with the cases and results behind the trajectory figures of
+  the paper "Hydrodynamics of active self-propulsion under wedge-shaped confinements".
+keywords:
+  - microswimmers
+  - Stokes flow
+  - wedge confinement
+  - force dipole
+  - low Reynolds number
+preferred-citation:
+  type: article
+  title: "Hydrodynamics of active self-propulsion under wedge-shaped confinements"
+  authors:
+    - family-names: "Wills"
+      given-names: "Annabel"
+      affiliation: "The Open University; University of St Andrews"
+    - family-names: "Zidanek"
+      given-names: "Dejan"
+      affiliation: "The Open University"
+    - family-names: "Mitchell"
+      given-names: "Michael J."
+      affiliation: "The Open University"
+    - family-names: "Menzel"
+      given-names: "Andreas M."
+      affiliation: "Otto-von-Guericke-Universität Magdeburg"
+    - family-names: "Daddi-Moussa-Ider"
+      given-names: "Abdallah"
+      affiliation: "The Open University"
+  year: 2026
+  # Add journal, volume and doi once the paper is published.

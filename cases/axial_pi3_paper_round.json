@@ -1,0 +1,42 @@
+{
+  "description": "Paper figures (axial pusher / puller), alpha = pi/3, sigma/(l^2 v0) = +-1: 7 start angles beta0 = 0, +-pi/12, +-pi/6, +-pi/4 at rho0 = 10 (2.6 to 8.7 swimmer sizes from the walls); rho_max = 30 so puller paths leave the plotted frame.",
+  "dipole": "axial",
+  "alpha": "pi/3",
+  "sigma": [
+    1,
+    -1
+  ],
+  "rho_max": 30,
+  "t_max": 100000.0,
+  "view": 20,
+  "starts": [
+    {
+      "rho0": 10,
+      "beta0": "-pi/4"
+    },
+    {
+      "rho0": 10,
+      "beta0": "-pi/6"
+    },
+    {
+      "rho0": 10,
+      "beta0": "-pi/12"
+    },
+    {
+      "rho0": 10,
+      "beta0": "0"
+    },
+    {
+      "rho0": 10,
+      "beta0": "pi/12"
+    },
+    {
+      "rho0": 10,
+      "beta0": "pi/6"
+    },
+    {
+      "rho0": 10,
+      "beta0": "pi/4"
+    }
+  ]
+}
